@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="style.css" />
+  <title>JS Game</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+  <section id="game">
+    <audio autoplay>
+    <source src="audio/superman-theme.mp3" type="audio/mp3">
+    </audio>
+
+    <div id="gameover">Game Over</div>
+
+    <div id="enemies"></div>
+
+    <div id="ground"></div>
+
+    <div id="player"></div>
+    
+  </section>
+  <div id="restart"><button class="btn btn-success" onclick="javascript:window.location.reload()">Commencer une nouvelle partie</button></div>
+  <div id="start"><button class="btn btn-success" onclick="javascript:window.location.reload()">Jouer</button></div>
+  <script src="game.js"></script>
+</body>
+
+</html>

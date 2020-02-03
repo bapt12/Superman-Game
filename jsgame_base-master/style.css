@@ -1,0 +1,64 @@
+#game {
+  position: relative;
+
+  width: 100%;
+  height: 100vh;
+
+  background: url("img/bck.jpg");
+  background-size: cover;
+  overflow: hidden;
+}
+
+#ground {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  width: 100vw;
+  height: 100px;
+
+  background: url("img/.png");
+  background-repeat: repeat-x;
+  background-size: contain;
+}
+
+#player {
+  position: absolute;
+  bottom: 400px;
+  left: 400px;
+
+  width: 90px;
+  height: 36px;
+
+  background: url("img/superman.png");
+  background-size: contain;
+
+  transition: 2s;
+  transition-timing-function: ease-in;
+}
+
+.eagle {
+  position: absolute;
+  bottom: 100px;
+  right: 10px;
+
+  width: 175px;
+  height: 60px;
+
+  background: url("img/avion.png");
+  background-size: cover;
+}
+
+#gameover {
+  position: absolute;
+  bottom: 325px;
+  right: 500px;
+  font-size: 100px;
+  color: red;
+}
+
+#restart {
+  position: absolute;
+  bottom: 250px;
+  right: 650px;
+}
